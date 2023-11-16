@@ -19,6 +19,10 @@ To get more information about how to run the executable with the proper options,
 ````
 Example usages of the program:
 ```
-./prim -n100000 -V0 -B10
-./prim -n100000 -V2 -B10
-
+./prim -n10000000 -V0 -B10
+./prim -n10000000 -V2 -B10
+```
+The first program will calculate the first 100000 existing prime numbers, store them into an array. 
+It will also run B=10 benchmarking iterations to calculate the average computation time in seconds when using the Sieve of Eratosthenes (V0: naive implementation)
+The second program will keep the same functionality, however the chosen algorithm (V2) will be significantly faster since it makes use of SIMD instructions and bit-shifts,
+which are used for parallel processing of data.
