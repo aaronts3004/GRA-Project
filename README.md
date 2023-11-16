@@ -1,5 +1,7 @@
 # Project in C
 ### This project was developed by Kerem Colak, Ignat Kharlamov, and Aaron Schulze.
+### It is part of the course "Grundlagenpraktikum: Rechnerarchitektur" offered by the Technical University of Munich and in particular by the Chair of Computer Architecture and Parallel Systems.
+
 The goal is to calculate **big prime numbers** and store all of them into an array.
 As the computation can become quite expensive for bigger and bigger numbers when using naive/traditional algorithms,
 different **implementation alternatives** were implemented and tested against each other in terms of their **speed and efficiency.**
