@@ -8,7 +8,9 @@ different **implementation alternatives** were implemented and tested against ea
 
 To test the program, clone the repository in a local directory of yours.
 A Makefile is provided; the make command will compile the code locally:
-```make```
+```
+make
+```
 
 The executable is named 'prim'.
 To get more information about how to run the executable with the proper options, print the 'help' table:
