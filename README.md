@@ -24,5 +24,5 @@ Example usages of the program:
 ```
 The first program will calculate the first 100000 existing prime numbers, store them into an array. 
 It will also run B=10 benchmarking iterations to calculate the average computation time in seconds when using the Sieve of Eratosthenes (V0: naive implementation)
-The second program will keep the same functionality, however the chosen algorithm (V2) will be significantly faster since it makes use of SIMD instructions and bit-shifts,
+The second program will keep the same functionality, however, the chosen algorithm (V2) will be faster (depending on the size of the input) since it makes use of SIMD instructions and bit-shifts,
 which are used for parallel processing of data.
