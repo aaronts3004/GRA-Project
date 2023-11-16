@@ -1,0 +1,9 @@
+# File to tell git to ignore/untrack all of the object files
+# since these are machine-dependent. This file is in './obj' dir 
+# since empty directories do not get committed by git.
+# Code references: "https://stackoverflow.com/questions/115983/how-do-i-add-an-empty-directory-to-a-git-repository"
+
+# Ignore all files in this directory:
+*
+# Except for this file:
+!.gitignore
