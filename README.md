@@ -1,4 +1,4 @@
-# Project in C
+# Project in C - Efficient computation of Prime Numbers
 ### This project was developed by Kerem Colak, Ignat Kharlamov, and Aaron Schulze.
 ### It is part of the course "Grundlagenpraktikum: Rechnerarchitektur" offered by the Technical University of Munich and in particular by the Chair of Computer Architecture and Parallel Systems.
 
